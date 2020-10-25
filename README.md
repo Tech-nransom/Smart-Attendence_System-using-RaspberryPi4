@@ -2,7 +2,7 @@
  
 This is the Project For Smart Attendence System and Uses Facial Recognition
 
-##Installation
+## Installation
 You Need opencv and face_recognition and numpy packages Installed on Raspberry pi
 
 To install face_recognition visit:
@@ -28,27 +28,27 @@ sudo apt-get install python3-numpy
 
 ```
 
-##Directory setup
+## Directory setup
 
 ```bash
 
-Base --Known_faces
+Base -->Known_faces
 			|
-			--Person1Name
+			-->Person1Name
 					|
-					--person_image1.jpg
-					--person_image2.jpg
-			--Person2Name
+					-->person_image1.jpg
+					-->person_image2.jpg
+			-->Person2Name
 					|
-					--person_image1.jpg
-					--person_image2.jpg
-			.
-			.
-			.
+					-->person_image1.jpg
+					-->person_image2.jpg
+			   .
+			   .
+			   .
 
 ```
 
-##Running Program
+## Running Program
 
 First check if all The packages are been downloaded,Once that is checked
 
@@ -58,7 +58,7 @@ Run:
 python3 Attendence_System.py
 ```
 
-##Result
+## Result
 It Generates Attendence.csv file in Base Directory
 The Attendence list is saved in Attendence.csv file
 
