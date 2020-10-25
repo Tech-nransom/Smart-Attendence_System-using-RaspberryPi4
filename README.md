@@ -58,6 +58,9 @@ Run:
 python3 Attendence_System.py
 ```
 
+To close The Program:
+Click On FEED and press "q"
+
 ## Result
 It Generates Attendence.csv file in Base Directory
 The Attendence list is saved in Attendence.csv file
